@@ -1,0 +1,13 @@
+table,td,th{
+    border: 3px solid orange;
+    caption-side:top ;
+    table-layout: fixed;
+    cell spacing: ;
+}
+p{
+    background-color: aqua;
+    width: 110px;
+    height: 260px;
+    overflow-x: auto;
+    overflow: scroll;
+}

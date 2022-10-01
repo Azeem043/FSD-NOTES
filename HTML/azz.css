@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    color: blue;
+    border:3PX SOLID RED;
+    margin: 1px 39%;
+    padding:0px 1px 0p px;
+}
+
+img{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 23%;
+}
+div{
+    text-align: center;
+}
+
+td{
+    width:2     00px;
+}
+th{
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+table{
+    border-color: green;
+    border-style:solid;
+    background-color: azure;
+}
+
+.aff{
+
+    text-align: center;
+    color: blue;
+    border:3PX SOLID RED;
+    margin: 1px 24%;
+    padding:0px 1px 0p px;
+}
+.shah{
+    background-color: dodgerblue;
+}
+#f{
+    background-color: dodgerblue;
+}
+footer{
+    text-align: right;
+}
+#F{
+    width: 200px;
+  
+}
+#img{
+    margin-left: 35%         ;
+}
+form{
+    background-color: linear-gradient(45deg,blue,red);
+}
+
+input:focus{
+    border:1px solid lightgreen;
+}

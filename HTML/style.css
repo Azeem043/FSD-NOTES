@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.black{
+    background-color: black;
+
+}   
+
+
+#pic1{
+    height: 80px;
+    /* transform: translatey(-775px); */
+}
+#pic2{
+   height: -370px;
+   width: 15%;
+   transform: translate(-48px,480px);
+   /* transform: translatey(); */
+    /* transform: translatey(-534px); */    
+} 
+  
+
+section{
+    border: 10px solid black;
+    height: 1vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    border: 10px solid black;
+    max-width: 700px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hone{
+    margin: auto;
+    padding: 0px;
+    color: forestgreen;
+    font-size: 99px;
+    font-family: Algerian;
+    /* text-shadow: rgba(38, 213, 32, 0.612) -8px 22px 18px; */
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+}
+#htwo{
+    margin: 0;
+    padding: 0px;
+    color: red;
+    font-size: 97px;
+    font-family: Algerian;
+    text-shadow: rgb(8, 8, 246) -8px 24px 20px;
+}
+#htwo:hover{
+    color:blue;
+    cursor: pointer;
+}
+.nav{
+    width: 95%;
+    height: ;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bar{
+   transform: translatex(1150px);   
+}
+/* button{
+    padding: 8px;
+    color:black;
+    font-weight: 400;
+    border: 3px solid #15f4ee;
+    border-radius: 100px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 1px 45px  #15f4ee inset, 0 1px 45px   #15f4ee,
+                0 1px 45px  #15f4ee inset, 0 1px 45px   #15f4ee;
+} */
+
+a{
+    position: relative;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition:0.5s;
+}
+a:hover
+{
+    letter-spacing: 0.25em;
+    color: var(--clr);
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+a:before{
+    content:'';
+    position: absolute;
+    inset: 3px;
+    background: #27282c;
+}
+a span
+{
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes blink 
+{
+    0%
+     {
+        color: rgb(11, 34, 212);
+     }
+     10%
+     {
+        color: rgb(0, 213, 255);
+     }
+     12%
+     {
+        color: rgb(11, 212, 51);
+     }
+     15%
+     {
+        color: rgb(212, 118, 11);
+     }
+     18%
+     {
+        color: rgb(212, 11, 11);
+     }
+     21%
+     {
+        color: rgb(11, 195, 212);
+     }
+     25%
+     {
+        color: rgb(212, 11, 172);
+     }
+     29%
+     {
+        color: rgb(11, 34, 212);
+     }
+     30%
+     {
+        color: rgb(11, 34, 212);
+     }
+     35%
+     {
+        color: rgb(130, 238, 175);
+     }
+     40%
+     {
+        color: rgb(234, 14, 14);
+     }
+     47%
+     {
+        color: purple;
+     }
+     50%
+     {
+        color: yellow;
+     }
+     
+     75%
+     {
+        color: forestgreen;
+     }
+     100%
+     {
+        color: black;
+     }
+}
+
+@-webkit-keyframes blink 
+{
+    
+    0%
+     {
+        color: rgb(11, 34, 212);
+     }
+     
+     10%
+     {
+        color: rgb(0, 213, 255);
+     }
+     12%
+     {
+        color: rgb(11, 212, 51);
+     }
+     15%
+     {
+        color: rgb(212, 118, 11);
+     }
+     18%
+     {
+        color: rgb(212, 11, 11);
+     }
+     21%
+     {
+        color: rgb(11, 195, 212);
+     }
+     25%
+     {
+        color: rgb(212, 11, 172);
+     }
+     29%
+     {
+        color: rgb(11, 34, 212);
+     }
+     30%
+     {
+        color: rgb(11, 34, 212);
+     }
+     35%
+     {
+        color: rgb(130, 238, 175);
+     }
+     40%
+     {
+        color: rgb(234, 14, 14);
+     }
+     44%
+     {
+        color: rgb(0, 213, 255);
+     }
+     48%
+     {
+        color: violet;
+     }
+     56%
+     {
+        color: rgb(234, 14, 14);
+     }
+     67%
+     {
+        color: purple;
+     }
+     70%
+     {
+        color: yellow;
+     }
+     
+     75%
+     {
+        color: forestgreen;
+     }
+     100%
+     {
+        color: black;
+     }
+    
+}
+
+
+
+/* .lightining{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-image: url(./IMAGES/bluethunder.jpg);
+   right: -45px;
+   transform: rotate(90deg);
+   animation: light 4s linear infinite ;
+   opacity: 1;
+
+}
+
+@keyframes light 
+{  
+    0%{
+        opacity: 0;
+    }
+    25%{
+     opacity: 0;
+      }
+    38%{
+       opacity: 1;
+      }
+  55%{
+     opacity: 0;
+     }
+ 65%{
+    opacity: 0;
+   }
+ 70%{
+   opacity: 1;
+  }
+ 75%{
+  opacity: 0;
+ }
+ 100%{
+  opacity: 0;
+  }
+
+  
+} */

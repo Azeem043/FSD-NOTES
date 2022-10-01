@@ -1,0 +1,220 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./IMAGES/butterfly.jpeg);
+    background-size: cover;
+}
+
+.lightining{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMAGES/bluethunder.jpg);
+    right: -45px;
+    transform: rotate(90deg);
+    animation: light 4s linear infinite ;
+    opacity: 1;
+
+}
+
+@keyframes light 
+{  
+     0%{
+         opacity: 0;
+     }
+     25%{
+      opacity: 0;
+       }
+     38%{
+        opacity: 1;
+       }
+   55%{
+      opacity: 0;
+      }
+  65%{
+     opacity: 0;
+    }
+  70%{
+    opacity: 1;
+   }
+  75%{
+   opacity: 0;
+  }
+  100%{
+   opacity: 0;
+   }
+
+   
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: black;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+   background-image: url(./IMAGES/classic.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: black;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 45px  #0d0e0d inset, 0 1px 45px   hsl(180, 17%, 95%),
+                0 1px 4px  hsl(180, 20%, 96%) inset, 0 1px 45px   #f4f6f6;
+}
+
+.button-box{
+    width: 214.5px;
+    margin:  35px auto ;
+    position: relative;
+    box-shadow: 0 0 1px 0px #15f4ee;
+    border-radius: 30px;
+}
+.blutton{
+      padding:10px 30px;
+      cursor: pointer;
+      /* color: red; */
+      color: rgb(34, 139, 52);
+      
+       font-weight: 600; 
+      background: transparent;
+      border:0;
+      outline: none;
+      position: relative;
+       }
+.blutton:hover{
+    background-color: #15f4ee;
+    border-radius: 30px;
+    box-shadow: 0 2px 55px  #15f4ee inset, 0 1px 55px   #15f4ee,
+                0 2px 55px  #15f4ee inset, 0 1px 55px   #15f4ee;
+}
+/* #btn{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient( to left, #15f4ee, #76974c);
+    border-radius: 30px;
+}
+#btn{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient( to right, #15f4ee, #76974c);
+    border-radius: 30px;
+} */
+.social{
+    margin:30px auto;
+    text-align: center;
+}
+.social img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.input-group{
+    top:180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 300px;
+    padding: 10px 0;
+    margin: 2px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #15f4ee;
+    outline: none;
+    background: transparent;
+    color: white;
+    transition: .25s;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin:auto ;
+    background: linear-gradient(to right, #15f4ee, #76974c);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login
+{
+  left: 50px;
+}
+#register
+{
+    left: 450px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+.p1{
+    display: grid;
+    height:50vh;
+    width: 60vh;
+    grid-template-columns: auto;
+    border-color: azure;
+    background-color: rgb(235, 22, 153);
+    float: right;
+}
+.p2{
+    display: grid;
+    height:55vh;
+    width: 80vh;
+    grid-template-columns: auto;
+    border-color: azure;
+    background-color: rgb(139, 22, 235);
+    float: left;   
+}
+.part2{
+    overflow: hidden;
+    overflow: scroll;
+    text-align: center;
+}
+.p3{
+    display: grid;
+    height:100vh;
+    width: 60vh;
+    grid-template-columns: auto;
+    border-color: azure;
+    background-color: rgb(22, 235, 82);
+    margin: 0 auto;
+}
+.part4{
+ text-align: center;
+}
+.p4{
+    display: grid;
+    height:40vh;
+    width: 70vh;
+    margin-left: 1%;
+    grid-template-columns: auto;
+    border-color: azure;
+    background-color: rgb(35, 204, 238);
+    transform: translateY(-320px);
+    
+}
+.p5{
+    display: grid;
+    height:50vh;
+    width: 60vh;
+    grid-template-columns: auto;
+    border-color: azure;
+    background-color: rgb(235, 150, 22);
+    float: right;
+    transform: translateY(-660px);
+}
+
+
+
+
+
+
+
+
+
+/* *{
+   margin: 0;
+}
+.part3{
+    display: grid;
+    height:50vh;
+    width: 50vh;
+    grid-template-rows: auto;
+    border-color: azure;
+    background-color: rgb(235, 22, 153);
+   
+    margin: 0 auto;
+}
+.container{
+    display: grid;
+    height:50vh;
+    width: 50vh;
+    grid-template-columns: auto ;
+    border-color: azure;
+    background-color: rgb(17, 168, 228);
+    float: right;
+} */
